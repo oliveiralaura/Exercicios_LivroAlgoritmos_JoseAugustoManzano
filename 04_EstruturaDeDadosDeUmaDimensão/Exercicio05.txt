@@ -1,0 +1,1 @@
+// Elaborarum programa que leia uma matriz com 15 elementos inteiros. Construir uma segunda matriz em que cada elemento da segunda matriz deve ser o resultado da fatorial do elemento correspondente de cada elemento do primeiro vetor.

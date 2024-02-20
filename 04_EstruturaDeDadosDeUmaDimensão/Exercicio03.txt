@@ -1,0 +1,1 @@
+Escreva um programa que leia duas matrizes com 20 elementos reais. Construir uma terceira matriz onde cada elemento deve ser a subtração do elemento de mesma posição 

@@ -1,0 +1,1 @@
+// Construir um progrma que leia dois vetores com 15 elementos quaisquer inteiro. Contruir um terceiro vetor que será a junção dos dois primeiros vetores, o seja terá 30 elementos. Apresente os três vetores.

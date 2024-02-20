@@ -1,0 +1,1 @@
+// Elaborar um programa que leia 15 elementos inteiros. Construir uma segunda matriz observando a seguinte regra de formação: "todo elemento da segunda matriz deve ser o quadrado do elemento do primeiro vetor na posição correspondente". Apresentar os elementos das duas matrizes.

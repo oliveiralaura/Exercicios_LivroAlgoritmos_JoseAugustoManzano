@@ -1,0 +1,1 @@
+// Elaborar um programa que leia oito elementos inteiros. Construir uma segunda matriz com os elementos da primeira matriz multiplicado por 3.
