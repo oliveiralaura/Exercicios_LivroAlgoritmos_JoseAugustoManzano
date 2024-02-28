@@ -1,0 +1,44 @@
+void main() {
+  double raio = 5.0; // Raio da esfera
+  double volume = (4 / 3) * 3.14159 * raio * raio * raio; // Fórmula do volume da esfera
+ 
+  print("O volume da esfera é: $volume");
+}
+
+void main() {
+
+ 
+  double celsius = 25;
+ 
+  double fahrenheit = celsius * 9 / 5 + 32;
+ 
+  print('Temperatura em Fahrenheit: $fahrenheit');
+}
+
+void main() {
+  int numero1 = 10;
+  int numero2 = 2;
+ 
+  
+  int resultado = (numero1 / numero2).toInt() * (numero1 / numero2).toInt();
+ 
+  
+  print("O resultado inteiro do quadrado da divisão é: $resultado");
+}
+void main() {
+  int valor1 = 8;
+  int valor2 = 5;
+ 
+  
+  int diferenca = (valor1 > valor2) ? (valor1 - valor2) : (valor2 - valor1);
+ 
+  
+  print('A diferença entre o maior e o menor valor é: $diferenca');
+}
+
+void main() {
+  for (int i = 15; i <= 200; i++) {
+    int quadrado = i * i;
+    print('O quadrado de $i é $quadrado');
+  }
+}
