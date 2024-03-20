@@ -1,0 +1,55 @@
+// Exercício 26: Cálculo do Quadrado da Divisão de Dois Números Inteiros
+
+// Descrição:
+// Este exercício consiste em desenvolver um programa que leia dois valores numéricos inteiros,
+// calcule a divisão do primeiro número pelo segundo número e, em seguida, calcule o quadrado do resultado da divisão.
+
+// Passo a Passo:
+
+// 1. Entrada de Dados:
+//    - Solicite ao usuário que insira dois valores numéricos inteiros.
+//    - Aguarde a entrada do usuário.
+
+// 2. Processamento:
+//    - Calcule a divisão do primeiro número pelo segundo número.
+//    - Calcule o quadrado do resultado da divisão.
+
+// 3. Saída de Dados:
+//    - Apresente o resultado inteiro do quadrado da divisão.
+
+// Exemplos:
+
+// - Exemplo 1:
+//   - Entrada: 10, 2
+//   - Saída: 25 (10 / 2 = 5, 5² = 25)
+
+// - Exemplo 2:
+//   - Entrada: 8, 4
+//   - Saída: 4 (8 / 4 = 2, 2² = 4)
+
+// - Exemplo 3:
+//   - Entrada: 15, 3
+//   - Saída: 25 (15 / 3 = 5, 5² = 25)
+
+// Exemplo em Pseudocódigo:
+// ENTRADA: num1, num2
+// PROCESSAMENTO: resultado_divisao = num1 / num2; resultado_quadrado = resultado_divisao * resultado_divisao
+// SAÍDA: exibir resultado_quadrado
+
+import 'dart:io';
+
+void main() {
+  // 1. Entrada de Dados
+  stdout.write('Insira o primeiro número inteiro: ');
+  var num1 = int.parse(stdin.readLineSync()!);
+
+  stdout.write('Insira o segundo número inteiro: ');
+  var num2 = int.parse(stdin.readLineSync()!);
+
+  // 2. Processamento
+  var resultadoDivisao = num1 / num2;
+  var resultadoQuadrado = resultadoDivisao * resultadoDivisao;
+
+  // 3. Saída de Dados
+  print('O quadrado da divisão dos números é: ${resultadoQuadrado.toInt()}');
+}
